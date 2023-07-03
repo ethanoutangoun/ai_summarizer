@@ -10,7 +10,7 @@ const Hero = () => {
             className='w-28 object-contain'/>
             <button
                 type='button'
-                onClick={() => window.open("https://github.com/ethanoutangoun")}
+                onClick={() => window.open("https://github.com/ethanoutangoun/ai_summarizer")}
                 className='black_btn'>
                     Github
                 </button>
@@ -22,7 +22,7 @@ const Hero = () => {
             <span className='orange_gradient'>OpenaI GPT-4</span>
         </h1>
         <h2 className='desc'>
-            Simplify your reading with this App which transforms any web article into clear and concise summaries
+            Simplify your reading using the latest model of GPT to summarize websites into clear and concise information
         </h2>
     </header>
   )
